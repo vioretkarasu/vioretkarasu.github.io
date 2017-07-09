@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  <meta charset="utf-8">
+  <title>AGO</title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/sample.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  
+   <header>
+  <div id="header_in" class="container">
+    <div class="row">
+      <div class="six columns logo">
+
+       <h1><a href="index.html"><img class="logo" alt="AGO" srcset="images/top/logo.png" alt="AGO" srcset="images/top/logo@2x.png 2x" /></a></h1>
+
+      </div>
+      <div class="six columns navi">
+
+        <div class="sp_navi">
+          <img id="sp_navi_btn" class="samune" src="images/top/SPnavi.png" alt="sp_navi" srcset="images/top/sp_navi@2x.png 2x" />
+
+          <ul class="sp_navi_li">
+            <li><a href="member.html">メンバー</a></li>
+            <li><a href="sinario.html">シナリオ</a></li>
+            <li><a href="">準備中</a></li>
+            <li><a href="https://twitter.com/noren_ku" target=”_blank”>ご連絡</a></li>
+          </ul>
+        </div>
+        
+<div class="pc_navi">
+
+  <ul class="pc_navi_li">
+    
+    <li class="navi_toppage"><a href="member.html">メンバー</a></li>
+    <li class="navi_news"><a href="sinario.html">シナリオ</a></li>
+    <li class="navi_company"><a href="">準備中</a></li>
+     <li class="navi_company"><a href="https://twitter.com/noren_ku" target=”_blank”>ご連絡</a></li>
+  </ul>
+
+</div>
+
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+  <!-- header_in -->
+</header>
+
+
+<div style="text-align : center">
+    <img src="images/scenario/sinario.jpg" usemap="#ImageMap"></img>
+    <map name="ImageMap">
+  <area shape="rect" coords="131,2722,580,2813" href="http://www.brainmixer.net/yibbtstll.html" target="blank" alt="永久パピルス" />
+  <area shape="rect" coords="1001,2979,1173,3014" href="sinario.html">
+</map>
+</div>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+   
+    
+      <div class="twelve columns">
+        <ul class="foot_navi">
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="member.html">メンバー</a></li>
+          <li><a href="">動画(準備中)</a></li>
+          <li><a href="https://twitter.com/noren_ku">ご連絡</a></li>
+        </ul>
+      </div>
+      <!-- columns -->
+    </div>
+    <!-- row -->
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="twelve columns sp">
+        <p class="copy">copyright (C) AGO all rights reserved.</p>
+      </div>
+      <!-- columns -->
+    </div>
+    <!-- row -->
+  </div>
+</footer>
+<!-- //footer -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+  $(function(){
+    $(document).ready(function(){
+
+      $("#sp_navi_btn").click(function () {
+        $(this).next().slideToggle();
+      });
+
+    });
+  });
+</script>
+
+</body>
+</html>
