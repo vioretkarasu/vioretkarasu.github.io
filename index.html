@@ -1,143 +1,103 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
+  <meta charset="UTF-8">
 
-  <meta charset="utf-8">
-  <title>AGO</title></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>AGO</title>
+  <meta name="description" content="AGO">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/sample.css">
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/responsive.css">
+  <link rel="icon" href="/favicon.ico">
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript">
+    jQuery.noConflict();
+
+  </script>
+
 </head>
+
 <body>
-  
-   <header>
-  <div id="header_in" class="container">
-    <div class="row">
-      <div class="six columns logo">
-
-       <h1><a href="index.html"><img class="logo" alt="AGO" srcset="images/top/logo.png" alt="AGO" srcset="images/top/logo@2x.png 2x" /></a></h1>
-
-      </div>
-      <div class="six columns navi">
-
-        <div class="sp_navi">
-          <img id="sp_navi_btn" class="samune" src="images/top/SPnavi.png" alt="sp_navi" srcset="images/top/sp_navi@2x.png 2x" />
-
-          <ul class="sp_navi_li">
-            <li><a href="member.html">メンバー</a></li>
-            <li><a href="sinario.html">シナリオ</a></li>
-            <li><a href="">準備中</a></li>
+  <header>
+    <div id="header">
+     <div class="nav_bcg"></div>
+      <div class="inner clearfix">
+        <nav class="forPC">
+          <a href="#"><img src="/images/logo.png" alt="AGO" class="logo"></a>
+          <ul class="navLink">
+            <li><a href="/member.html">メンバー</a></li>
+            <li><a href="/scenario.html">シナリオ</a></li>
+            <li><a href="http://www.nicovideo.jp/watch/sm31733021">動画</a></li>
             <li><a href="https://twitter.com/noren_ku">ご連絡</a></li>
           </ul>
-        </div>
-        
-<div class="pc_navi">
+        </nav>
+        <nav class="forSP">
+          <a href="#"><img src="/images/logo.png" alt="AGO" class="logo"></a>
+          <span class="menuButton"><img src="/images/menu.png" alt=""></span>
+          <ul class="navLink_sp">
+            <li><a href="/member.html">メンバー</a></li>
+            <li><a href="/scenario.html">シナリオ</a></li>
+            <li><a href="http://www.nicovideo.jp/watch/sm31733021">動画</a></li>
+            <li><a href="https://twitter.com/noren_ku">ご連絡</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-  <ul class="pc_navi_li">
-    
-    <li class="navi_toppage"><a href="member.html">メンバー</a></li>
-    <li class="navi_news"><a href="sinario.html">シナリオ</a></li>
-    <li class="navi_company"><a href="">準備中</a></li>
-     <li class="navi_company"><a href="https://twitter.com/noren_ku">ご連絡</a></li>
-  </ul>
-
-</div>
+  <section class="rwd_wrapper">
+    <div class="mainVisual">
+      <div class="inner">
 
       </div>
     </div>
-    <!-- row -->
-  </div>
-  <!-- header_in -->
-</header>
-
-
-<div id="cover_area">
-  <div class="container">
-    <div class="twelve columns">
-      <img class="nigedasu" src="images/scenario/nigedasu.png" alt="新時代のソリューションを提供する" srcset="images/sinario/nigedasu@2x.png 2x" />
-    </div>
-  </div>
-</div>
-
-<div id="service_area">
-  <div class="container">
-    <div class="row">
-      <h3><div class="service_title">シナリオ</div></h3>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-
-      <div class="four columns">
-        <img class="samune" src="images/top/samuneSP.png" alt="サムネ画像" srcset="images/top/samuneSP@2x.png 2x" />
+    <section class="mainContents">
+      <div class="wrapper">
+        <h1 class="h1title">シナリオ</h1>
+        <section>
+          <div class="columns three">
+            <div class="column mb20">
+              <p class="centering mb10"><img src="/images/top/thumbnail.jpg" alt="" class="imgSize_ajust"></p>
+              <div class="linkButton red">
+                <a href="/scenario.html"><span>詳細</span></a>
+              </div>
+            </div>
+            <div class="column2">
+              <div class="inner">
+                <h2 class="h2title">hand in hand / 制作中</h2>
+                <p class="text">AGO卓第一回動画「hand in hand」迫りくる恐怖と違和感、起きるとそこは薄暗い部屋の中だった。様々な困難をPLはどう切り抜けていくのか、そして待っている真実とは…</p>
+                <p class="text">
+                  PL:さらまんだー<br> KP:noren
+                </p>
+                <p class="text">
+                  AGO卓とは、August、Go(八月に行こう)という意味をこめた、夏が苦手な連中が集う7人で構成される TRPGをこよなく愛する卓です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-      
-        <div class="eight columns">
-        <h3><div class="service_title">hand in hand</div></h3>
-        <p>AGO卓第一回動画「hand  in hand」迫りくる恐怖と違和感、起きるとそこは薄暗い部屋の中だった。様々な困難をPLはどう切り抜けていくのか、そして待っている真実とは…</p>
-        <p>PL:さらまんだー<br />KP:noren</p>
-        </div>
-      </div>
-  </div>    
-  </div>
-  
-   <div class="container">
-      <div class="row">
-        <div class="twelve columns">
-          <a href="sinario.html"><div class="button_top">詳細</div><a>
-        </div>
-      </div>
-    </div>
-      
+    </section>
+  </section>
 
-<footer>
-  <div class="container">
-    <div class="row">
-   
-    
-      <div class="twelve columns">
-        <ul class="foot_navi">
-          <li><a href="member.html">メンバー</a></li>
-          <li><a href="sinario.html">シナリオ</a></li>
-          <li><a href="">動画(準備中)</a></li>
-          <li><a href="https://twitter.com/noren_ku">ご連絡</a></li>
-        </ul>
-      </div>
-      <!-- columns -->
+  <footer id="footer">
+    <div class="inner clearfix">
+      <ul class="footerNav">
+        <li><a href="/member.html">メンバー</a><span class="forPC">/</span></li><!--
+        --><li><a href="/scenario.html">シナリオ</a><span class="forPC">/</span></li><!--
+        --><li><a href="http://www.nicovideo.jp/watch/sm31733021">動画</a><span class="forPC">/</span></li><!--
+        --><li><a href="https://twitter.com/noren_ku">ご連絡</a></li>
+      </ul>
     </div>
-    <!-- row -->
-    </div>
-    <div class="container">
-    <div class="row">
-      <div class="twelve columns sp">
-        <p class="copy">copyright (C) AGO all rights reserved.</p>
-      </div>
-      <!-- columns -->
-    </div>
-    <!-- row -->
-  </div>
-</footer>
-<!-- //footer -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<script>
-  $(function(){
-    $(document).ready(function(){
-
-      $("#sp_navi_btn").click(function () {
-        $(this).next().slideToggle();
-      });
-
-    });
-  });
-</script>
+    <p class="copyright">© noren all rights reserved.</p>
+  </footer>
 
 </body>
+
 </html>
