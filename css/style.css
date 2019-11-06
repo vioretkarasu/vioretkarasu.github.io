@@ -166,6 +166,10 @@ body {
   background-color: #9a0000;
 }
 
+#header .navLink li img {
+  padding: 0 30px;
+}
+
 .mainContents {
   background-color: #FBF4F4;
   color: #3c3c3c;
