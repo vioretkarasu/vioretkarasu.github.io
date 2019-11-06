@@ -166,7 +166,7 @@ body {
   background-color: #9a0000;
 }
 
-#header .navLink li img {
+.header_line {
   padding: 0 30px;
 }
 
