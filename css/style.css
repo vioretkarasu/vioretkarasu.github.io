@@ -172,6 +172,7 @@ body {
   padding-bottom: 20px;
 }
 
+
 .mainVisual {
   background-color: #FBF4F4;
   background-image: url("/images/yuuhi.png");
@@ -261,7 +262,7 @@ body {
 }
 
 .linkButton.red a {
-  color: #3c3c3c;
+  color: #ffffff;
 }
 
 .text {
@@ -297,13 +298,13 @@ body {
 #footer .footerNav li a {
   display: inline-block;
   vertical-align: middle;
-  color: #3c3c3c;
+  color: #ffffff;
   font-size: 1.1rem;
   text-decoration: none;
 }
 
 .copyright {
-  color: #3c3c3c;
+  color: #ffffff;
   text-align: center;
   font-size: 1.1rem;
   padding-top: 10px;
