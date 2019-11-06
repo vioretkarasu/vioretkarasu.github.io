@@ -208,7 +208,7 @@ body {
 }
 
 .redText {
-  color: #7d0000;
+  color: #901818;
 }
 
 .status {
@@ -252,7 +252,7 @@ body {
 }
 
 .linkButton.red {
-  background: #7d0000;
+  background: #901818;
 }
 
 .linkButton.red:hover {
@@ -279,7 +279,7 @@ body {
 }
 
 #footer {
-  background-color: #7d0000;
+  background-color: #901818;
   padding-top: 20px;
 }
 
